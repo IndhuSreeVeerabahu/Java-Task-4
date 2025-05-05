@@ -73,14 +73,12 @@ public class Main {
 
 import java.util.Scanner;
 
-// Custom Checked Exception
 class InvalidVoterAgeException extends Exception {
     public InvalidVoterAgeException(String message) {
         super(message);
     }
 }
 
-// Voter class with checked exception
 class Voter {
 
     int age;
